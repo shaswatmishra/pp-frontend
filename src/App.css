@@ -1,0 +1,49 @@
+/*
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
+*/
+
+/** {
+  font-size: 11px;
+  margin: 0px;
+  font-family: "Gilroy";
+}*/
+
+@font-face {
+  font-family: "GilroySemi"; /*Can be any text*/
+  src: local("Gilroy-Black"), url("./fonts/Gilroy-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GilroyMed"; /*Can be any text*/
+  src: local("Gilroy-Black"), url("./fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GilroyBold"; /*Can be any text*/
+  src: local("Gilroy-Black"), url("./fonts/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "GilroyRegular"; /*Can be any text*/
+  src: local("Gilroy-Black"), url("./fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+* {
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0px;
+  font-family:"Poppins", "Roboto", sans-serif;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.unverified-msg {
+  display: block;
+  margin:15px auto 0 auto;
+  width: fit-content;
+  font-family:"GilroyRegular";
+  text-align: center;
+  background-color: rgba(255, 68, 0, 0.618);
+  color: #ffffff;
+  padding:3px 5px;
+  border-radius:15px;
+}
