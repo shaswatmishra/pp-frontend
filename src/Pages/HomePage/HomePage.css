@@ -1,0 +1,218 @@
+.homepage {
+  font-family: "poppins";
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.homepage > .top {
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homepage > .top > img {
+  height: 45px;
+  margin: 10px 0px;
+}
+
+.homepage > .name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10px 0;
+}
+
+.homepage > .name > .hi_name {
+  font-size: 2.5rem;
+  font-family: "GilroySemi";
+  color: rgba(54, 60, 76, 1);
+}
+
+.homepage > .name > .date {
+  font-size: 1.2rem;
+  margin-top: 7px;
+  color: #363c4c;
+  font-family: "GilroyRegular";
+}
+
+.homepage > .carousel {
+  height: 220px;
+}
+
+/*slider modification*/
+.slider-outer {
+  height: 100%;
+}
+.rtds-single-slide-styles {
+  height: 100%;
+}
+
+.homepage > .button_group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 20px 50px 20px;
+}
+
+.homepage > .button_group > .buttons_row {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage > .button_group > .buttons_row > .button {
+  width: 30%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepage > .button_group > .buttons_row > .button > img {
+  border-radius: 22px;
+}
+
+.homepage > .button_group > .buttons_row > .button > img:hover {
+  cursor: pointer;
+}
+
+.homepage > .button_group > .buttons_row > .button > span {
+  font-size: 1.1rem;
+  color: #363c4c;
+  line-height: 14px;
+  font-family: "GilroyMed";
+  margin: 8px 0px;
+}
+
+.homepage > .build_Website {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.homepage > .build_Website > .text {
+  display: flex;
+  /* background: green; */
+  margin-right: 12px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.homepage > .build_Website > .text > .header {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.homepage > .build_Website > .text > .about {
+  font-size: 11px;
+  color: #363c4c;
+}
+
+.homepage > .build_Website > .button > span {
+  color: white;
+  font-size: 10px;
+  background: linear-gradient(93.76deg, #996ad0 -7.73%, #5c71dd 112.14%);
+  padding: 5px 18px;
+  border-radius: 20px;
+}
+
+.homepage > .demo_videos {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+
+.homepage > .demo_videos > .header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.homepage > .demo_videos > .see_more {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.homepage > .demo_videos > .see_more > div {
+  /* background: gray; */
+  box-sizing: border-box;
+  color: #914af9;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+/*
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #ebddff;
+  min-height: 80px;
+  align-items: center;
+}
+.navBar .addBtn {
+  transform: translateY(-50%);
+
+  border-radius: 50%;
+}*/
+.payment {
+  background: radial-gradient(
+      50.7% 50.7% at 49.3% 50.7%,
+      rgba(114, 32, 234, 0.12) 0%,
+      rgba(136, 65, 238, 0.12) 7.08%,
+      rgba(217, 192, 255, 0.12) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 22px;
+  height: 63px;
+  width: px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .css-1qzevvg {
+  position: absolute !important;
+  display: flex;
+  height: 40px;
+  margin: 1rem auto 0px;
+  /* width: 20%; */
+/* -webkit-box-pack: justify;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-64%);
+  top: 50%;
+  z-index: 100;
+  width: 40%;
+} */
+/* 
+.carousel > div > div{
+min-width: 85%!important;;
+max-height:150px;
+}
+.carousel > div > div > img{
+  object-fit: cover;
+  width: 100%;
+}  */
+
+/*.rtds-single-slide-styles img{
+  width: 100%;
+  object-fit: cover;
+}*/

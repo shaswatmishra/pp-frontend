@@ -1,0 +1,32 @@
+.textandimagecard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+  /* background: green; */
+}
+
+.textandimagecard > .text{
+  display: flex;
+  flex-direction: column;
+  /* background-color: black; */
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.textandimagecard > .text > .header{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.textandimagecard > .text > .about{
+  font-size: 10px;
+  color: #363C4C;
+}
+
+.textandimagecard > .image > img{
+  height: 60px;
+  width: 90px;
+}

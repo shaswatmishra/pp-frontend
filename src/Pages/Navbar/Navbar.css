@@ -1,0 +1,47 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f8f3ff;
+  height: 70px !important;
+  z-index: 100;
+}
+
+.navBar > a {
+  display: flex;
+  text-align: center;
+  width: 20%;
+  height: 70px;
+  margin: auto;
+  background: #f8f3ff;
+}
+.navBar > a > svg {
+  margin: auto;
+}
+.navBar > .home > svg > path {
+  stroke: #d4d4d4;
+}
+.navBar > .active > svg > path {
+  stroke: #363C4C;
+}
+.navBar > .active > svg > g > path {
+  fill: #363C4C;
+}
+.navBar > a:nth-child(2) {
+  border-radius: 0 20px 0 0;
+}
+
+.navBar > a:nth-child(4) {
+  border-radius: 20px 0 0 0;
+}
+.navBar > .addBtn {
+  transform: translateY(-50%);
+  padding: 5px;
+  border-radius: 100%;
+  background-color: transparent;
+}
